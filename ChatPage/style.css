@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgrey; */
+}
+.header{
+    height: 50px;
+    background: linear-gradient(to right, rgb(88, 86, 86), rgb(36, 35, 35));
+    position: sticky;
+    top: 0px;
+}
+.main{
+    display: flex;
+    column-gap: 10px;
+
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 53px;
+}
+#profile{
+    float: right;
+}
+#profile img{
+    width: 30px;
+    height: 20px;
+    border-radius: 100%;
+}
+#profile img:hover{
+    cursor: pointer;
+}
+body{
+    background-color: rgb(232, 235, 236);
+}
+.p1{
+    height: 540px;
+    width: 20%;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+}
+.p2{
+    height: 40px;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.p3{
+    height: 40px;
+    width: 20%;
+    margin-right: 20px;
+}
+.box1{
+    height: 160px;
+    background-color: whitesmoke;
+}
+.box1 h2{
+    text-align: center;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 75px;
+    width: 115px;
+    border-radius: 100%;
+}
+.box1 p{
+    padding-left: 5px;
+}
+.box2{
+    background-color: grey;
+    height: 90px;
+}
+.box2 p{
+    word-spacing: 1px;
+    padding-top: 11px;
+    padding-left: 27px;
+    color: aliceblue;
+}
+.box3{
+    background-color: white;
+    height: 120px;
+}
+.box3 h3{
+    padding-left: 17px;
+}
+.line1 p{
+    display: inline-block;
+    background-color: rgb(90, 87, 87);
+    color: aliceblue;
+    margin-right: -1px;
+}
+.line2 p{
+    display: inline-block;
+    background-color: rgb(178, 189, 185);
+    padding-left: 6px;
+}
+.box4{
+    background-color: rgb(201, 199, 199);
+    height: 95px;
+}
+.box4 h3{
+    padding: 10px;
+}
+.box4 p{
+    padding-left: 4px;
+}
+.box4 i{
+    float: right;
+}
+.boxa{
+    /* border: 1px solid black; */
+    height: 140px;
+    background-color: rgb(252, 250, 250);
+}
+.boxa h3{
+    color: lightslategray;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.boxa input{
+    margin-left: 20px;
+    height: 30px;
+}
+.boxa button{
+    border: 1px solid;
+    height: 42px;
+    background-color: gray;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 71px;
+
+}
+.boxb{
+    height: 760px;
+    background-color: white;
+}
+.boxb img{
+    height: 80px;
+    width: 120px;
+    border-radius: 100%;
+}
+.boxb img,h3{
+    display: inline-block;
+}
+.boxb h3{
+    position: relative;
+    bottom: 30px;
+}
+.boxb p{
+    padding-left: 20px;
+}
+.image2{
+    display: flex;
+    justify-content: space-around;
+}
+.image2 img{
+    width: 45%;
+    border-radius: 0px;
+    height: 500px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.buttons button{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(26, 111, 139);
+    color: aliceblue;
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+}
+.buttons button:hover{
+    background-color: gray;
+}
+.boxc{
+    height: 240px;
+    background-color: white;
+}
+.boxc img{
+    height: 80px;
+    width: 120px;
+    border-radius: 100%;
+}
+.boxc img,h3{
+    display: inline-block;
+}
+.boxc h3{
+    position: relative;
+    bottom: 30px;
+}
+.boxc p{    
+    padding-left: 20px;
+}
+.buttons1 button{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(26, 111, 139);
+    color: aliceblue;
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+}
+.buttons1 button:hover{
+    background-color: gray;
+}
+.boxd{
+    height: 600px;
+    background-color: white;
+}
+.boxd img{
+    height: 80px;
+    width: 120px;
+    border-radius: 100%;
+}
+.boxd img,h3{
+    display: inline-block;
+}
+.boxd h3{
+    position: relative;
+    bottom: 30px;
+}
+.boxd img{
+    border-radius: 0%;
+}
+.boxd p{
+    padding-left: 35px;
+    font-size: 20px;
+}
+.image3 {
+    text-align: center;
+}
+.image3 img{
+    width: 90%;
+    height: 300px;
+}
+.buttons2 button{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(26, 111, 139);
+    color: aliceblue;
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+}
+.buttons2 button:hover{
+    background-color: gray;
+}
+.boxi{
+    height: 250px;
+    background-color: white;
+}
+.boxi h2{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 4px;
+}
+.image4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image4 img{
+    height: 100px;
+    width: 240px;
+}
+.boxi button{
+    width: 80%;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.boxii{
+    height: 200px;
+    background-color: white;
+}
+.boxii h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.image5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image5 img{
+    height: 70px;
+    width: 60px;
+    border-radius: 100%;
+}
+.buttons3 button{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(26, 111, 139);
+    color: aliceblue;
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 4px;
+}
+.buttons3 button:hover{
+    background-color: gray;
+}
+#first{
+    height: 37px;
+    width: 103px;
+    background-color: green;
+    border: 0px;
+}
+#second{
+    background-color: red;
+    width: 103px;
+    height: 37px;
+    border: 0px;
+}
+.boxiii{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxiii p{
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.boxiiii{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+
+}
